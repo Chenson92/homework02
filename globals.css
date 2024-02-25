@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:var(--www-udemy-com-roboto-regular-16-font-weight),var(--www-udemy-com-roboto-regular-11-06-font-weight),var(--www-udemy-com-roboto-regular-19-font-weight),var(--www-udemy-com-roboto-regular-11-44-font-weight),var(--www-udemy-com-roboto-regular-13-45-font-weight),var(--www-udemy-com-roboto-regular-13-78-font-weight),var(--www-udemy-com-roboto-regular-11-63-font-weight),var(--www-udemy-com-roboto-bold-19-font-weight),400,var(--www-udemy-com-roboto-regular-14-font-weight),var(--www-udemy-com-roboto-bold-12-font-weight),var(--www-udemy-com-roboto-bold-32-font-weight),var(--www-udemy-com-roboto-regular-11-25-font-weight),var(--www-udemy-com-roboto-regular-18-85-font-weight),var(--www-udemy-com-roboto-bold-14-font-weight),var(--www-udemy-com-roboto-regular-11-81-font-weight),var(--www-udemy-com-roboto-bold-13-89-font-weight),var(--www-udemy-com-roboto-bold-24-font-weight),var(--www-udemy-com-roboto-regular-15-88-font-weight),var(--www-udemy-com-roboto-regular-12-font-weight),var(--www-udemy-com-roboto-regular-13-56-font-weight),700,var(--www-udemy-com-roboto-regular-13-89-font-weight),var(--www-udemy-com-roboto-bold-16-font-weight)|Inter:var(--www-udemy-com-inter-bold-19-font-weight),700,var(--www-udemy-com-inter-bold-48-font-weight)");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
